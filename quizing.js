@@ -98,7 +98,7 @@ function regras() {
   
   textSize(25);
   fill('purple');
-  text('Uma pergunta ser· feita, h· \napenas uma resposta correta,\nacerte e passe para a prÛxima,\ncaso errar END GAME', 30, 50);
+  text('Uma pergunta ser√° feita, h√° \napenas uma resposta correta,\nacerte e passe para a pr√≥xima,\ncaso errar END GAME', 30, 50);
 }
 
 function menu() {
@@ -537,13 +537,9 @@ function win(){
   stroke('black')
   fill('yellow')
   textSize(50);
-  text('PARAB…NS', 80, 150)
+  text('YOU WIN', 80, 150)
   
-  strokeWeight(5)
-  stroke('black')
-  fill('yellow')
-  textSize(50);
-  text('VOC  GANHOU', 20, 200)
+
 
 }
 
